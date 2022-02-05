@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+:root {
+    --big-headings: rgb(95, 95, 95);
+    --small-headings: rgb(119, 119, 119);
+    --font-family: 'Source Code Pro', monospace;
+    --backgound-color: rgb(256, 256, 256);
+}
+
+* {
+    background-color: var(--backgound-color);
+    font-family: var(--font-family);
+    color: var(--small-headings);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .navbar-brand > img {
+    width: 8vh;
+}
+
+
+
+.first-div {
+    position: relative;
+    top: 12vh;
+    margin-left: 15vh;
+}
+
+h1, h2, h3 {
+    color: var(--big-headings);
+}
+
+
+
+
+.container {
+    position: relative;
+    top: 9vh;
+}
+
+.container #members {
+    justify-content: center;
+    padding: 1em;
+}
+
+footer {
+    position: relative;
+    top: 30vh;
+    bottom: 0;
+    width:100%;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding:10%;
+    position:relative;
+    
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
