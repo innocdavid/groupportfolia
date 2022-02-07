@@ -20,12 +20,9 @@
     width: 8vh;
 }
 
-
-
-.first-div {
-    position: relative;
-    top: 12vh;
-    margin-left: 15vh;
+#first-container {
+    margin-top: 12vh;
+    margin-left: 0;
 }
 
 h1, h2, h3 {
@@ -33,17 +30,6 @@ h1, h2, h3 {
 }
 
 
-
-
-.container {
-    position: relative;
-    top: 9vh;
-}
-
-.container #members {
-    justify-content: center;
-    padding: 1em;
-}
 
 footer {
     position: relative;
